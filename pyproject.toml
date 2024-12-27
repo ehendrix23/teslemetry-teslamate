@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "teslemetry-teslamate"
+version = "0.1.0"
+description = "Sync Teslamate from Teslemetry"
+authors = ["Erik Hendrix <hendrix_erik@hotmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+repository = "https://github/com/ehendrix23/teslemetry-teslamate"
+classifiers = [
+	"Intended Audience :: End Users/Desktop",
+	"License :: OSI Approved :: Apache Software License",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
